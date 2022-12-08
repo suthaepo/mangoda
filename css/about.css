@@ -1,0 +1,28 @@
+/*About Section */
+.About{
+    max-width: 996px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 96px 102px;
+    gap:96px;
+}
+.About>h2{
+    font-family: 'Notosans',sans-serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.center{
+    text-align: center;
+}
+.about-description{
+padding-bottom: 24px !important;
+}
+
+.about-description>p.mm-txt{
+    font-size: 16px !important;
+    line-height: 33.6px !important;
+}

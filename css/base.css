@@ -1,0 +1,397 @@
+:root{
+    --base-whitbg:#FCFCFC;
+    --base-charcoal:#282828;
+    --base-black:#161616;
+    --brand-orange:#FB7B32;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins.ttf') format('ttf'),
+}
+@font-face {
+    font-family: 'Notosans';
+    src: url('./fonts/Notosans-Regular.ttf') format('ttf'),
+}
+@font-face {
+    font-family: 'Notosans-Bold';
+    src: url('./fonts/Notosans-Bold.ttf') format('ttf'),
+}
+
+
+body{
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: var(--base-whitbg) !important;
+    box-sizing: border-box !important;
+}
+.container{
+    max-width: 1200px;
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+.navbar{
+    height: 96px !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+    gap:48px;
+}
+a{
+    text-decoration: none !important;
+    
+}
+a.fullwidth{
+    color:#fff !important;
+}
+.d-flex {
+    gap: 48px;
+    display: flex!important;
+}
+.mm-txt{
+    font-family: 'Notosans',sans-serif !important;
+    font-size: 14px !important;
+    line-height: 150%;
+}
+.mm-txt.white{
+    color: var(--base-whitbg);
+}
+.mm-txt.black{
+    color: var(--base-black);
+}
+.mm-txt.normal{
+    font-weight: 400;
+}
+.mm-txt.medium{
+    line-height: 33.6px;
+    font-weight: 500;  
+}
+.mm-txt.bold{
+    font-weight: 600;
+}
+.eng-txt.medium{
+    font-weight: 500;  
+}
+.eng-txt.bold{
+    font-weight: 600;
+}
+.eng-txt{
+    font-family: 'Poppins',sans-serif !important;
+    font-size: 16px;
+    line-height: 150%;
+}
+.eng-txt.white{
+    color: var(--base-whitbg);
+}
+.eng-txt.black{
+    color: var(--base-black);
+}
+
+/*
+    List of components in website
+        - buttons
+        - links
+
+    Main components
+        -Header / Navigation
+        -Footer
+
+*/
+
+a.nav-link>.mm-txt{
+    font-family: 'Notosans-Bold',sans-serif !important;
+}
+
+
+/*Variant Button Components*/
+span.totals{
+    font-family: 'Notosans',sans-serif !important;
+    font-size: 12px !important;
+    position: absolute;
+    right: -12px;
+    top: 0px;
+    color: #fff !important;
+    background: red;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+}
+
+button{
+    border-radius: 32px !important; 
+    font-family: 'Notosans',sans-serif !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 150%;
+}
+button.fill{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    border:none;
+    color:var(--base-whitbg);
+    background-color: var(--brand-orange);
+}
+button.outline{
+    width: 140px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 8px;
+    background:none !important;
+    border: 2px solid var(--base-black) !important;
+}
+
+
+/**/
+.hero{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap:48px;
+}
+.headline{
+    width: 588px;
+}
+.headline>h2{
+    text-align: left;
+    margin-bottom: 48px;
+}
+.hero-image{
+    width: 486px;
+    height: 486px;
+    border-radius: 30px;
+    background-color: #000;
+}
+
+
+/*What is mangoda Components*/
+.whatis-mangoda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 64px;
+    background: var(--brand-orange);
+    padding: 120px 102px;
+    gap:24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+/*Why choose Mangoda?*/
+.why{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 96px;
+    gap:48px;
+}
+.benefits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+}
+.benefit-one,.benefit-two,.benefit-three,.benefit-four{
+    margin-bottom: 48px;
+}
+.benefit-one>h4,.benefit-one>.icon,.benefit-two>h4,.benefit-two>.icon,
+.benefit-three>h4,.benefit-three>.icon,.benefit-four>h4,.benefit-four>.icon{
+    margin-bottom: 24px;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #F4F4F4;
+}
+.planner-hero{
+width:384px;
+height: 700px;
+background-color: #000;
+border-radius: 32px;
+}
+
+
+/*Daily Planner Packages*/
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:48px;
+    margin-top: 48px;
+}
+.product-card{
+    padding: 24px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius: 32px;
+    box-shadow: 0px 4px 20px 0px #0000000D;
+}
+.product-card.active{
+    border: 1px solid #FB7B32;
+}
+.product-card>div.img{
+    width: 100%;
+    height: 420px;
+    background-color: #000;
+    border-radius: 16px;
+}
+
+
+/*FAQ Components*/
+.FAQ{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-bottom: 96px;
+    gap:48px;
+}
+.FAQ>h2,.why>h2,.hero>.headline>h2,.packages>h2{
+    font-family: 'Notosans',sans-serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.center{
+    text-align: center;
+}
+.question{
+    padding-bottom: 24px !important;
+}
+.question>h4{
+    padding-bottom: 12px;
+    font-size: 20px !important;
+}
+.questions{
+    width: 996px;
+    margin: 0 auto;
+}
+
+/*Partner Components*/
+.partner-links{
+    border-radius: 30px;
+    border: 1px solid var(--base-charcoal);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 96px;
+    margin-bottom: 175px;
+}
+.partners{
+    width: 752px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+.partner-slang{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Footer Components*/
+
+footer{
+    padding-top:120px;
+    padding-bottom:120px;
+    display: block;
+    /* position: fixed; */
+    left:0;
+    bottom: 0;
+    background-color: var(--base-charcoal);
+    width: 100%;
+    z-index: -1;
+}
+.footer-contents{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.footer-links>h3,.partner-links>h3,.whatis-mangoda>h3{
+    font-family: 'Inter',sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 150%;
+    color: var(--base-whitbg);
+}
+ul.list-unstyled{
+    margin-top: 48px;
+    padding-left: 0;
+    list-style: none;
+}
+ul.list-unstyled>li{
+    padding-bottom: 24px;
+}
+ul.list-unstyled>li>a{
+    text-decoration: none;
+}
+.social-links{
+    margin-top:0rem !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row !important;
+    gap:24px;
+}
+.copyright{
+    margin-top: 52px;
+}
+
+.packages{
+    margin-top: 48px;
+    margin-bottom: 96px !important;
+}
+
+.product-card>div.img
+{
+    margin-bottom: 24px;
+}
+
+.product-card>h4{
+    margin-bottom: 16px;
+}
+.product-card>p{
+    margin-bottom: 48px !important;
+}
+
+button.fill.fullwidth{
+    justify-content: center;
+    text-align: center;
+    width: 100% !important;
+}
+
+button.fill.fullwidth.disabled{
+    opacity: 10 !important;
+    background-color: #fb7b324d;
+}

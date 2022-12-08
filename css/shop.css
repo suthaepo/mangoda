@@ -1,0 +1,40 @@
+/*Porduct Shop Section*/
+.packages{
+    margin-top: 48px;
+    margin-bottom: 96px !important;
+}
+
+button.fill.fullwidth{
+    justify-content: center;
+    text-align: center;
+    width: 100% !important;
+}
+
+button.fill.fullwidth.disabled{
+    opacity: 10 !important;
+    background-color: #fb7b324d;
+}
+
+.product-card{
+    position: relative;
+}
+
+.product-card>div.img
+{
+    margin-bottom: 24px;
+}
+
+.product-card>h4{
+    margin-bottom: 16px;
+}
+.product-card>p{
+    margin-bottom: 48px !important;
+}
+
+.product-card>.badge-icon
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+

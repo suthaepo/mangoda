@@ -1,0 +1,148 @@
+
+.product-details,.benefits{
+    padding: 120px;
+    gap: 122px;
+    /* background-color: #ddd; */
+    display: flex;
+}
+
+.benefits,.reviews{
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 48px 120px;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.benefit-section,.review-slides{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+.product-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:32px;
+}
+
+.product-hero>img{
+    width: 100%;
+    height: auto;
+    border-radius: 16px;  
+}
+.product-thumbnails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:12px;
+}
+
+.product-thumbnails>div{
+    height: 97.5px;
+    width: 78px;
+    border-radius: 8px;
+    /* background: #F4F4F4; */
+}
+.thumbnial-one,.thumbnial-two,.thumbnial-three,.thumbnial-four,.thumbnial-five{
+    background-image: url(../img/heros/planner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.product-price{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:8px;
+}
+
+button.fill.fullwidth{
+    width: 100%;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.fill{
+
+    width: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product-items{
+    margin-bottom: 24px;
+}
+.custom-dropdown{
+    cursor: pointer !important;
+    width: 180px !important;
+    border-radius: 32px !important;
+    border: 1px solid #282828 !important;
+    font-family: 'Poppins',sans-serif !important;
+}
+
+.product-descriptions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    /* gap:4px;
+    margin-bottom: 8px !important; */
+}
+img.list-icon{
+    margin-right: 8px;
+}
+
+h4.bold{
+    font-size: 24px !important;
+}
+
+.benefit-one,.benefit-two,.benefit-three,.benefit-four,.benefit-four{
+height: 395px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+h4.mm-txt.bold{
+    font-size: 18px !important;
+}
+
+div>.benefit-one.active{
+    border: 1px solid var(--brand-orange);
+
+
+
+
+}
+
+
+.review{
+    background: #F4F4F4;
+    height: 360px;width: 368px;
+
+border-radius: 32px;
+
+}
+
+.guide{
+    background: #F4F4F4;
+    height: 720px;width: 100%;
+
+border-radius: 32px;
+
+}
